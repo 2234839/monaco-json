@@ -36,7 +36,7 @@ function format(message: string, args: any[]): string {
 export let localize = function localize(key: string | LocalizeInfo, message: string, ...args: any[]): string {
   return format(message, args);
 }
-export let setLocalize = (f:typeof localize){
+export let setLocalize = (f:typeof localize)=>{
   localize = f
 }
 
