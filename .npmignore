@@ -1,7 +1,7 @@
 /.vscode/
 /out/
 /scripts/
-/src/
+# /src/
 /test/
 /.gitignore
 /.npmignore
